@@ -1,0 +1,16 @@
+.Footer {
+  background-color: #25447e;
+  padding: 8px;
+  width: 100%;
+  color: white;
+  font-size: 0.4em;
+}
+
+.Footer .Grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 80px;
+}

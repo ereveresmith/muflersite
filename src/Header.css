@@ -1,0 +1,103 @@
+.Header {
+  background-color: #25447e;
+  padding: 8px;
+}
+
+.Header .TopText {
+  position: absolute;
+  top: 0;
+}
+
+.Header .TopText p {
+  font-size: 9px;
+  color: white;
+}
+
+.Header .Grid {
+  display: grid;
+  overflow: hidden;
+  align-items: center;
+  grid-template-columns: 180px 1fr 1fr;
+}
+
+
+.Header .Logo {
+  display: inline-block;
+}
+
+.Header .Logo img {
+  margin-top: 8px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 740px) {
+  .Header .Logo {
+    width: 100%;
+  }
+  .Header .Grid {
+    grid-template-columns: 180px 1fr 1fr;
+  }
+}
+
+.Header .NavLinks {
+  color: white; 
+  font-weight: 500;
+  justify-self: left;
+  padding: 10px 0 0 8px;
+}
+
+.Header .LinkGrid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Header .LinkGrid a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;  
+  text-align: left;
+  margin: 4px
+}
+
+.Header .LinkGrid a:hover {
+  color: rgb(205, 205, 205);  
+}
+
+.Header .LinkGrid a:focus {
+  text-decoration: underline; 
+}
+
+.Header .LinkGrid a:active {
+  text-decoration: underline; 
+}
+
+.Header .ActionButton {
+  justify-self: end;
+  margin: 0 8px;
+  align-self: center;
+}
+
+.Header .ActionButton button {
+  padding: 8px 12px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.328) 1px 1px 10px;
+  color: #fff;
+  outline: 0;
+  background: 0;
+  border: 1px white solid;
+  cursor: pointer;
+}
+
+.Header .ActionButton button:hover {
+  background-color: #ba7d22;
+}
+
+.Header .ActionButton button:active {
+  background-color: #ce8b26;
+}
+
+
+.Header .ActionButton button:focus {
+  background-color: #ce8b26;
+}

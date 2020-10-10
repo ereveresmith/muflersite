@@ -1,0 +1,78 @@
+.Margins {
+    padding: 8px 7%;
+}
+
+/* @media only screen and (max-width: 800px) {
+    .Margins {
+        padding: 0 17px;
+    }
+  } */
+
+.JumboBanner {
+    width: auto;
+    padding: 16px;
+    display: grid;
+    justify-items: center;
+    background-color: #b1a2a2;
+    /* background-image: url("https://images.squarespace-cdn.com/content/v1/5e9fa98348d28b20b3f39b36/1587802552048-V47PH9WW9NYNPTNT8OVD/ke17ZwdGBToddI8pDm48kFNX2F7KAjgezu6RwzZph-UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcJ0IUoXo9k8WPjylG-rh_XQEH1cq0KjOHxie2OO7TUYifMIp0AbkYT-Av59IncLpo/mufler+sign.jpg?format=1500w"); */
+}
+
+.JumboBanner h1 {
+    color: white;
+}
+
+.JumboBanner h2 {
+    color: white;
+}
+  
+
+
+.OneColumnGrid {
+    align-content: center;
+    grid-auto-rows: max-content;
+}
+
+.TwoColumnGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 28px;
+}
+
+  
+.ThreeColumnGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+  
+.ImgWrapper {
+    align-self: center;
+}
+
+.ImgWrapper img {
+    width: 100%;
+}
+
+.ListItems  {
+    grid-gap: 8px;
+    display: grid;
+}
+
+.ServicesHeader {
+    align-self: center;
+}
+
+.google-maps {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 75%;
+    margin-top: 16px;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
